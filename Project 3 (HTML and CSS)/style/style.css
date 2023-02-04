@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+body{
+    height:100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./background.png");
+    background-size: cover;
+    
+    
+}
+
+header{
+    height: 80px;
+}
+.flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.menu ul{
+    gap:35px;
+    color:#ffc233;
+    font-weight: 700;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li:hover{
+    color:#ff505f;
+    text-decoration: underline;
+}
+.logo{
+    margin:13px;
+    padding:10px;
+    height: 60px;
+    
+}
+button{
+    width:2.8cm;
+    background-color: #ff505f;
+    margin-right: 50px;
+    padding:8px;
+    font-size:17px;
+    font-weight:900;
+    color:white;
+    border:none;
+    cursor: pointer;
+    border-radius:2px;
+}
+button:hover{
+    background-color: #f0f8ff;
+    color:#000000;
+    border:2px solid #ff505f;
+}
+
+/* design 1st section  */
+.main{
+    height:350px;
+    display:grid;
+    justify-content: center;
+    align-items: end;
+    
+}
+.main h1{
+    
+    color:#ffc233;
+    font-size:80px;
+    font-style:normal;
+    line-height: 80px;
+    font-family: "Dela Gothic One", cursive;
+
+
+}
+.span1{
+    margin-left: 120px;
+}
+.span2{
+    margin-left:70px;
+}
+.main button{
+   margin-left:250px;
+   width:5cm;
+   
+}
+.main2{
+    height:148px;
+    display:flex;
+    align-items: center;
+    justify-content: end;
+}
+.main2 div img{
+    height: 110px;
+    width:110px;
+    margin-right: 35px;
+    
+}
