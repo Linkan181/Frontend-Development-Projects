@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}   
+body{
+   margin:20px 50px; 
+}
+
+/* Design Header of the Page ------------------------------ */
+header{
+    height:70px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div2{
+    width:850px;
+}
+.div2 ul{
+    display:flex;
+    list-style: none;
+    gap:25px;
+}
+.div2 ul li:hover{
+     color:#5955b3;
+     text-decoration: underline;
+}
+.top-logo{
+    height: 45px;
+    justify-content: start;
+}
+/* Header design end --------------------------------------- */
+
+
+/* design section start----------------------------------- */
+section{
+    height: 500px;
+    display:flex;
+}
+/* section is divided into 2 division  */
+.left-div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+}
+.left-div h1{
+    font-size:40px;
+    font-weight: bolder;
+    color:#3c2e60;
+
+}
+.left-div h1 span{
+    color:#5955b3;
+}
+.left-div button{
+    width:3.6cm;
+}
+.right-div img{
+    height:500px;
+}
+
+/* design All buttons present is page */
+button{
+    background-color:#5955b3;
+    color:#ffffff;
+    border-radius:5px;
+    padding:5px;
+    font-size:14px;
+    border:none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ffffff;
+    color:#000000;
+    border: 2px solid #000000;
+}
+
