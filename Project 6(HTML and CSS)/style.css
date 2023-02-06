@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-image: url("./image/bg.png");
+
+    background-size: cover;
+}
+
+/* Start designing of header--------------- */
+header{
+    background-color: #000000;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+/* design left-side of Header--------------- */
+header .header-div2 ul{
+    display:flex;
+    color:white;
+    list-style: none;
+    gap :40px;
+    font-weight: 600;
+    
+}
+.left-header{
+display:flex;
+align-items: center;
+gap:30px;
+}
+.left-header .header-div1 img{
+    height: 40px;
+    margin: 26px 20px 20px;
+}
+
+/* design Right side of Header  -------------- */
+.right-header{
+    margin-right: 30px;
+}
+.right-header button{
+    background-color: #B90EC5;
+    padding:5px 8px;
+    color:#f0f8ff;
+    font-weight: bold;
+    border-radius:6px;
+}
+/* set hover properties--------------- */
+header .header-div2 ul li:hover{
+  color:#B90EC5;
+  
+  
+}
+.right-header button:hover{
+    background-color: #f0f8ff;
+    color:#B90EC5;
+    border:2px solid #B90EC5;
+ 
+
+}
+/* End of Header part----------------- */
+
+
+/* Start Designing the main section/part------------- */
+
+.center-page{
+    height: 700px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+main{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  
+    
+}
+main h1{
+    font-size:55px;
+    color:#ffffff;
+    line-height: 70px;
+}
+main p{
+    color:#ffffff;
+    font-weight: 700;
+  
+}
+main button{
+    background-color: #B90EC5;
+    border: 2px solid black;
+    padding:5px 8px;
+    color:#f0f8ff;
+    font-weight: bold;
+    font-size:25px;
+    
+    border-radius:6px;
+    
+    margin:30px;
+}
+main button:hover{
+    background-color: #f0f8ff;
+    color:#B90EC5;
+    border:2px solid #B90EC5;
+}
