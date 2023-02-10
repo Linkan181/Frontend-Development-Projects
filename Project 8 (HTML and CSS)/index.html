@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Media Query</title>
+    <style>
+.background{
+    background-color: #7fffd5;
+    height: 100vh;
+    border-radius: 10px;
+}
+.background div{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 30px;
+  
+}
+
+@media screen and (max-width:1440px) {
+    .background{
+    background-color: #208b21;
+    height: 100vh;
+    border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:1024px){
+   
+    .background{
+    background-color: #b1882f;
+    height: 100vh;
+    border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:768px){
+   
+   .background{
+   background-color: #75fbfd;
+   height: 100vh;
+   border-radius: 10px;
+   }
+}
+
+@media screen and (max-width:425px){
+   
+   .background{
+   background-color: #ca3142;
+   height: 100vh;
+   border-radius: 10px;
+   }
+}
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div>
+            <h1 id="text">This is media Query demo page.</h1>
+        </div>
+
+    </div>
+</body>
+</html>
