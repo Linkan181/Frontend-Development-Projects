@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive design</title>
+    <style>
+        body{
+            background-color: #111827;
+        }
+     
+       .inner_section{
+        width:700px;
+        margin:10px auto;
+       }
+       .upper_part{
+        display:flex;
+        justify-content: center;
+        gap:60px;
+       }
+       .upper_part .left{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: px;
+        
+       }
+       .upper_part .left img{
+        
+        height:20px;
+        width:20px;
+       }
+       .upper_part .left h3,h1,p{
+         margin:0px;
+       }
+
+       .upper_part span,h1,p{
+        color:white;
+       }
+       .upper_part .right img{
+          height: 230px;
+          width:230px;
+       }
+       main div img{
+        height: 200px;
+       
+       }
+       main{
+        display:grid;
+        grid-template-columns: 200px 200px;
+        justify-content: center;
+       
+        column-gap: 50px;
+       }
+       .color_text{
+        color:white;
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: #0000ff;
+        text-decoration-thickness: 4px;
+       }
+
+       footer{
+        display:flex;
+        justify-content: center;
+        gap:10px;
+       }
+       footer img{
+        height: 20px;
+       }
+
+       main div p{
+        text-align:center;
+       }
+
+       @media screen and (max-width:425px){
+        main{
+        display:flex;
+        flex-direction:column;
+        
+        align-items: center;
+       
+        gap: 50px;
+       }
+       }
+    </style>
+</head>
+<body>
+    <div clas="outer_section">
+        <div class="inner_section">
+            <div class="upper_part">
+               <div class="left">
+                  
+                   <h3>
+                    <span> <img src="./assetes/waving-hand.png" alt="" height="20px"></span>
+                    <span class="text">Hi Everyone</span>
+                   </h3>
+                   <h1>Mark Anderson</h1>
+                   <p>Developer</p>
+               </div>
+               <div class="right">
+                <img src="./assetes/pc-image.png" alt="" width="40px">
+               </div>
+            </div>
+
+            <h2 class="color_text">Projects</h2>
+
+            <main>
+                 
+                  <div>
+                    <img src="./assetes/image.png" alt="image">
+                    <p>Project 1</p>
+                  </div>
+                  <div>
+                    <img src="./assetes/image.png" alt="image">
+                    <p>Project 2</p>
+                  </div>
+                  <div>
+                    <img src="./assetes/image.png" alt="image">
+                    <p>Project 3</p>
+                  </div>
+                  <div>
+                    <img src="./assetes/image.png" alt="image">
+                    <p>Project 4</p>
+                  </div>
+            </main>
+                <h2 class="color_text">Contact Me</h2>
+            <footer>
+                <img src="./assetes/github.png" alt="Github">
+                <img src="./assetes/linkedin.png" alt="Linkedin">
+                <img src="./assetes/outlook.png" alt="Outlook">
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
