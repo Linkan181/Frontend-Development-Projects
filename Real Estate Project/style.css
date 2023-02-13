@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f6f8fa;
+}
+ 
+/* Start design the top part ---------------------- */
+.top{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./Photos/mainBackground.png");
+    height:700px;
+    padding:20px 100px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+   
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    gap:100px;
+    margin-bottom: 20px;
+   
+}
+header .logo{
+    position:relative;
+    right:50px;
+    /* padding:6px 0px; */
+   
+    
+}
+header .logo img{
+    width: 120px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap:40px;
+
+}
+.menu ul li{
+    font-size: 20px;
+    color:#ffffff;
+}
+
+.top h3{
+    font-size: 70px;
+    color:white;
+    
+}
+.top p{
+    color:white;
+}
+
+.top button{
+    background-color:#6663e9 ;
+    padding:8px 20px;
+    font-size: 18px;
+    margin:20px 0px;
+    color:white;
+    border:none;
+    border-radius: 23px;
+    font-weight: 600;
+
+}
+.top .content{
+    margin:100px 0px;
+}   /* End the design of Top part-----------------------------------------*/
+
+
+
+
+.logo_container{
+    /* height: 150px; */
+    background-color: #f6f8fa;
+    border-radius: 30px;
+    margin:0px auto;
+    width:90vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: relative;
+
+    top:-90px;
+    padding:60px 0px;
+}
+.logo_container img{
+    width:150px;
+}
+
+
+/* Our best estate Headline section -------------------------------------   */
+.headline{
+    margin-bottom:100px;
+}
+.headline h1{
+    font-size:60px;
+    text-align: center;
+}
+
+
+
+
+/* Design the Cars and Car_container    -------------------------- */
+.card{
+    width:366px;
+    height: 400px;
+    justify-self: center;
+}
+.house_1 img{
+    width:366px;
+    height: 400px;
+    border-radius: 20px;
+}
+.detail{
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90%;
+    height: 100px;
+    margin: 0px auto;
+    position:relative;
+    top:-50px;
+    gap:20px;
+}
+.detail button{
+    background-color: #6663e9;
+    font-size:17px;
+    font-weight: 900px;
+    padding:10px 30px;
+    border:none;
+    color:#ffffff;
+    border-radius: 25px;
+}
+.element p{
+    font-size: 18px;
+    font-weight: 600;
+    color:#6663e9;
+}
+.element{
+    line-height: 35px;
+}
+.card_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    row-gap: 170px;
+}
+
+
+/* Align the item of Card Container------------------------------------- */
+.line_1_left,.line_3_left{
+    position: relative;
+    top:-25px;
+}
+.line_1_right,.line_3_right{
+    position:relative;
+    bottom: -25px;
+}
+.line_2_left{
+position: relative;
+bottom:-25px;
+}
+.line_2_right{
+    position:relative;
+    top:-25px;
+}
+
+
+
+
+/* ----------Design the feature section 1  ------------------------------------ */
+
+.feature_section_1{
+    display: flex;
+    align-items: center;
+    margin-top:300px;
+}
+.feature_section_1 .photo_part{
+    width:50%;
+}
+
+
+.feature_section_1 #pic1{
+    position: absolute;
+    width:726px;
+    height: 456px;
+    left:-70px;
+   
+}
+.feature_section_1 #pic2{
+    width:400px;
+    height:400px;
+    border-radius: 30px;
+    position: relative;
+    top:-55px;
+    left:124px;
+    
+
+}
+.feature_section_1 .text{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    color:black;
+}
+.feature_section_1 .text h1{
+font-size: 60px;
+
+}
+.feature_section_1 .text button{
+    width:200px;
+    font-size:18px;
+    font-weight: 700;
+    color:white;
+    background-color: #6663e9;
+    border:none;
+    border-radius: 30px;
+    padding:10px 30px;
+    margin:20px 0px;
+}
+
+
+
+
+/*------------------- Design Feature section 2 ------------------------------ */
+
+.feature_section_2{
+    display: flex;
+    margin:200px 0px;
+    align-items: center;
+}
+.feature_section_2 .text{
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding-left:60px;
+    padding-top:34px;
+
+}
+.feature_section_2 .text button{
+    background-color: #6663e9;
+    font-size: 18px;
+    font-weight: 700;
+    padding:10px 30px;
+    border:none;
+    border-radius: 30px;
+    color:white;
+    width:200px;
+}
+.feature_section_2 .text h1{
+font-size: 60px;
+}
+.feature_section_2 .photo_part{
+    width:55%;
+}
+.feature_section_2 .photo_part #pic1{
+    width:700px;
+    height: 450px;
+    position: absolute;
+
+}
+.feature_section_2 .photo_part #pic2{
+    width:395px;
+    height: 400px;
+    border-radius: 50px;
+    position: relative;
+
+    left:180px;
+    top:-60px;
+    /* left:40px;
+    top:-30px; */
+}
+
+
+
+/* Design the subscribtion section  ------------------------------ */
+.subscribe{
+    width:85%;
+    height: 500px;
+    background-color: #6663e9;
+    border-radius: 70px;
+    margin:0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+}
+.subscribe h1{
+    font-size:60px;
+    color:white;
+}
+.subscribe p{
+    color:white;
+}
+.alignment{
+      display: flex;
+     gap:20px;
+}
+.alignment input{
+    
+    padding-left: 5px;
+    font-size:18px;
+    width:300px;
+    height: 60px;
+    border-radius: 30px;
+    border:none;
+    background-color: #5654d1;
+}
+#mail{
+    display: flex;
+    background-color: #5654d1;
+    height: 80px;
+    width: 360px;
+    height: 60px;
+    border-radius: 30px;
+    
+
+}
+#mail img{
+    scale:0.4;
+}
+.alignment button{
+    width:180px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    padding:10px 30px;
+    border-radius: 30px;
+    border:none;
+    background-color: #ffffff;
+    color:#6663e9;
+}
+
+
+
+
+/* design the footer ------------------------------------------------ */
+footer{
+    display:flex;
+    padding:100px;
+    justify-content: space-between;
+}
+/* Left div of footer    */
+.left_footer{
+   display: flex;
+   flex-direction: column;
+   gap:30px;
+}
+.left_footer #selector{
+  width:150px;
+}
+.left_footer #socia_media{
+    display: flex;
+    gap:20px;
+}
+.left_footer p{
+    font-size: 20px;
+}
+
+/* right div of footer  --------------------------- */
+.right_footer{
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    gap:100px;
+
+}
+.right_footer div ul li{
+    list-style: none;
+}
+.right_footer ul{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.font_size{
+    font-size:20px;
+    font-weight: 700;
+}
+
+/* hover all buttons  */
+button:hover{
+   background-color: #5654d1;
+}
