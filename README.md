@@ -1,2 +1,2 @@
-# Web-Development-Projects
-This  repository contains HTML, CSS, and JavaScript projects developed by me.
+# Frontend Projects
+This  repository contains HTML, and CSS projects developed by me.
