@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* design nav bar -------------------------- */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding:20px 120px 30px 60px;
+}
+nav img{
+    width:150px;
+}
+.menu ul{
+    display: flex;
+    gap:70px;
+    list-style: none;
+    font-size:18px;
+    font-weight: 600px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+/* Design the form  */
+.form_container{
+    width:350px;
+    height: 400px;
+    margin:50px auto;
+    padding-left:25px;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+}
+.name input{
+    width:300px;
+
+}
+.email input{
+    width:300px;
+}
+.message textarea{
+    width:300px;
+}
+.form_container h1{
+    text-align: center;
+    padding-right:35px;
+    color:#20bc7e;
+}
+
+/* Make form flex   */
+form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+button{
+    width:300px;
+    font-size: 18px;
+    font-weight: 600;
+    color:#ffffff;
+    background-color: #20bc7e;
+    border:none;
+    padding:6px 10px;
+    border-radius: 25px;
+}
+
+input{
+    font-size:18px;
+    padding:4px 10px;
+}
