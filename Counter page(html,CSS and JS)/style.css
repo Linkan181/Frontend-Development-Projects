@@ -1,0 +1,46 @@
+body{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+#button{
+    padding:10px;
+    font-size:20px;
+    border:2px solid black;
+    border-radius:10px;
+    background-color: #808080;
+    width:200px;
+    margin:auto;
+   
+   
+}
+#counter_display{
+    height:60px;
+    width:100px;
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    
+}
+.alignmet{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    
+}
+
+#increment,#decrement{
+    height:30px;
+   
+    font-size: 16px;
+}
+
+
